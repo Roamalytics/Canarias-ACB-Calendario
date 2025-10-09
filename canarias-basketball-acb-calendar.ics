@@ -4,16 +4,33 @@ PRODID:-//Rickyfalia//Canarias Basketball ACB//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:canarias-basketball-acb-calendar
-X-WR-TIMEZONE:UTC
-X-WR-CALDESC:ACB 2025-26 fixtures for La Laguna Tenerife (Lenovo Tenerife)
+X-WR-TIMEZONE:Atlantic/Canary
+X-WR-CALDESC:ACB 2025-26 fixtures for La Laguna Tenerife (Lenovo Tenerife) in Canary time
 CATEGORIES:Banana
+BEGIN:VTIMEZONE
+TZID:Atlantic/Canary
+BEGIN:STANDARD
+DTSTART:19701025T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:WET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T010000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZNAME:WEST
+END:DAYLIGHT
+END:VTIMEZONE
 BEGIN:VEVENT
-UID:1bf8e27c-2d04-4bbf-a2d7-3ceb5c948fca@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:e00d9c9a-1a99-4367-99b8-ac1bc902f9be@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251004T190000
+DTEND;TZID=Atlantic/Canary:20251004T210000
 SUMMARY:ACB: La Laguna Tenerife - BAXI Manresa
-DTSTART:20251004T180000Z
-DTEND:20251004T200000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -29,12 +46,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:91dfdb74-11b8-4fae-8d68-77ebba809dda@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:ca45e257-4b85-4a48-9f8b-112846b99861@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251011T180000
+DTEND;TZID=Atlantic/Canary:20251011T200000
 SUMMARY:ACB: MoraBanc Andorra - La Laguna Tenerife
-DTSTART:20251011T160000Z
-DTEND:20251011T180000Z
-LOCATION:Poliesportiu d’Andorra — Baixada del Molí\, 17\, AD500 Andorra la Vella\, Andorra
+LOCATION:Poliesportiu d’Andorra — Baixada del Molí, 17, AD500 Andorra la Vella, Andorra
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -50,12 +67,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ae1f5e18-e03e-4bde-a333-a095e4466794@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:05ce61f7-8305-4db8-834b-932725c327f1@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251018T190000
+DTEND;TZID=Atlantic/Canary:20251018T210000
 SUMMARY:ACB: La Laguna Tenerife - UCAM Murcia
-DTSTART:20251018T180000Z
-DTEND:20251018T200000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -71,12 +88,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:014e2c1b-4e93-427f-b4ad-4910f9122ab5@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:b46b80d0-5991-45f3-ae80-14c0c263c2c4@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251025T190000
+DTEND;TZID=Atlantic/Canary:20251025T210000
 SUMMARY:ACB: La Laguna Tenerife - Unicaja
-DTSTART:20251025T180000Z
-DTEND:20251025T200000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -92,12 +109,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:79ed2f71-7fdf-477b-a83d-7b57432f95e0@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:c266b04f-f1c9-4d15-bdf4-27f079646692@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251102T180000
+DTEND;TZID=Atlantic/Canary:20251102T200000
 SUMMARY:ACB: Baskonia - La Laguna Tenerife
-DTSTART:20251102T170000Z
-DTEND:20251102T190000Z
-LOCATION:Fernando Buesa Arena — Portal de Zurbano Kalea\, 01013 Vitoria-Gasteiz\, Álava\, Spain
+LOCATION:Fernando Buesa Arena — Portal de Zurbano Kalea, 01013 Vitoria-Gasteiz, Álava, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -113,12 +130,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6af77203-b2d2-4205-bad7-19005f3a3834@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:ed748683-5c6d-4c53-a471-d8085f736634@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251108T190000
+DTEND;TZID=Atlantic/Canary:20251108T210000
 SUMMARY:ACB: La Laguna Tenerife - San Pablo Burgos
-DTSTART:20251108T190000Z
-DTEND:20251108T210000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -134,12 +151,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:53c16d30-6658-4597-afda-459d2ad7a3cd@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:945b1d35-9b9a-4116-a1c6-708d2f7c1ee5@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251116T113000
+DTEND;TZID=Atlantic/Canary:20251116T133000
 SUMMARY:ACB: Valencia Basket - La Laguna Tenerife
-DTSTART:20251116T103000Z
-DTEND:20251116T123000Z
-LOCATION:Pabellón Fuente de San Luis — Carrer de Bomber Ramon Duart\, s/n\, 46013 València\, Spain
+LOCATION:Pabellón Fuente de San Luis — Carrer de Bomber Ramon Duart, s/n, 46013 València, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -155,12 +172,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:e0a39558-d650-4e6e-a357-91955aab01fc@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:64a5e775-dfb2-4598-bb76-553637792aa9@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251123T170000
+DTEND;TZID=Atlantic/Canary:20251123T190000
 SUMMARY:ACB: Casademont Zaragoza - La Laguna Tenerife
-DTSTART:20251123T160000Z
-DTEND:20251123T180000Z
-LOCATION:Pabellón Príncipe Felipe — Av. Cesáreo Alierta\, 120\, 50013 Zaragoza\, Spain
+LOCATION:Pabellón Príncipe Felipe — Av. Cesáreo Alierta, 120, 50013 Zaragoza, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -176,12 +193,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:407e3f03-e077-4cc9-9158-12b64879c3b4@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:25f893ed-982f-494d-9d3a-5e8c151d4419@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251207T120000
+DTEND;TZID=Atlantic/Canary:20251207T140000
 SUMMARY:ACB: La Laguna Tenerife - Real Madrid
-DTSTART:20251207T120000Z
-DTEND:20251207T140000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -197,12 +214,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c12de042-2e0f-4df0-a0b8-2cfcd2492429@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:84104df1-ec1a-40a2-8d50-392a8368e6da@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251213T180000
+DTEND;TZID=Atlantic/Canary:20251213T200000
 SUMMARY:ACB: Río Breogán - La Laguna Tenerife
-DTSTART:20251213T170000Z
-DTEND:20251213T190000Z
-LOCATION:Pazo dos Deportes de Lugo — Rúa Pintor Corredoira\, s/n\, 27002 Lugo\, Spain
+LOCATION:Pazo dos Deportes de Lugo — Rúa Pintor Corredoira, s/n, 27002 Lugo, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -218,12 +235,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3a3e94c2-a648-420d-afbc-e7262d819767@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:8e28504a-7bf4-48d9-b2db-7023f501ee03@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251220T170000
+DTEND;TZID=Atlantic/Canary:20251220T190000
 SUMMARY:ACB: Bàsquet Girona - La Laguna Tenerife
-DTSTART:20251220T160000Z
-DTEND:20251220T180000Z
-LOCATION:Pavelló Girona-Fontajau — Avinguda de Girona\, 2\, 17007 Girona\, Spain
+LOCATION:Pavelló Girona-Fontajau — Avinguda de Girona, 2, 17007 Girona, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -239,12 +256,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5e536bbe-0736-4894-922f-24ebfd8bdbf4@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:dcfdbe01-1311-41c0-8d59-0e6c0c6e105e@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251228T120000
+DTEND;TZID=Atlantic/Canary:20251228T140000
 SUMMARY:ACB: La Laguna Tenerife - Dreamland Gran Canaria
-DTSTART:20251228T120000Z
-DTEND:20251228T140000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -260,12 +277,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:606c8bce-5835-4e65-ae49-e8d5154e3187@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:bf7a8eff-e8f0-4058-aabc-9ee2a1c40071@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20251230T190000
+DTEND;TZID=Atlantic/Canary:20251230T210000
 SUMMARY:ACB: La Laguna Tenerife - Covirán Granada
-DTSTART:20251230T190000Z
-DTEND:20251230T210000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -281,12 +298,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:24583e17-a513-4528-bf15-87f9ec8f8e3e@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:b2aed376-0742-46f2-9493-c6a6aab706e0@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260103T200000
+DTEND;TZID=Atlantic/Canary:20260103T220000
 SUMMARY:ACB: Joventut Badalona - La Laguna Tenerife
-DTSTART:20260103T190000Z
-DTEND:20260103T210000Z
-LOCATION:Pavelló Olímpic de Badalona — Carrer de Ponent\, 143\, 08912 Badalona\, Barcelona\, Spain
+LOCATION:Pavelló Olímpic de Badalona — Carrer de Ponent, 143, 08912 Badalona, Barcelona, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -302,12 +319,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:175586a8-f8ee-4058-b152-d63769dc8a2e@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:6a8fe301-2ebb-411e-b9a0-43b36fc951d8@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260110T190000
+DTEND;TZID=Atlantic/Canary:20260110T210000
 SUMMARY:ACB: La Laguna Tenerife - Hiopos Lleida
-DTSTART:20260110T190000Z
-DTEND:20260110T210000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -323,12 +340,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c344082a-04f3-41ff-84e9-54187186e939@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:6e427a94-9021-45ba-88cd-0af0f95e35af@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260117T200000
+DTEND;TZID=Atlantic/Canary:20260117T220000
 SUMMARY:ACB: Surne Bilbao Basket - La Laguna Tenerife
-DTSTART:20260117T190000Z
-DTEND:20260117T210000Z
-LOCATION:Bilbao Arena — Askatasuna Etorbidea\, 13\, 48003 Bilbao\, Bizkaia\, Spain
+LOCATION:Bilbao Arena — Askatasuna Etorbidea, 13, 48003 Bilbao, Bizkaia, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -344,12 +361,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:0df36150-2de9-4558-a26d-d6b03847272b@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:c0997367-5acb-4b7d-9870-e9edab11b7fe@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260125T180000
+DTEND;TZID=Atlantic/Canary:20260125T200000
 SUMMARY:ACB: Barça - La Laguna Tenerife
-DTSTART:20260125T170000Z
-DTEND:20260125T190000Z
-LOCATION:Palau Blaugrana — Carrer d'Arístides Maillol\, 12\, 08028 Barcelona\, Spain
+LOCATION:Palau Blaugrana — Carrer d'Arístides Maillol, 12, 08028 Barcelona, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -365,12 +382,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:574798e2-d035-4919-ad73-5854fffe6ee3@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:aecb11fd-d39e-467e-92e5-37f08e1a0f32@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260201T170000
+DTEND;TZID=Atlantic/Canary:20260201T190000
 SUMMARY:ACB: La Laguna Tenerife - Baskonia
-DTSTART:20260201T170000Z
-DTEND:20260201T190000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -386,12 +403,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:0e918745-5a2b-4747-831f-e25e47d502a9@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:bb732062-3d5f-470a-aedb-d87791849431@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260207T170000
+DTEND;TZID=Atlantic/Canary:20260207T190000
 SUMMARY:ACB: San Pablo Burgos - La Laguna Tenerife
-DTSTART:20260207T160000Z
-DTEND:20260207T180000Z
-LOCATION:Coliseum Burgos — Av. del Arlanzón\, s/n\, 09004 Burgos\, Spain
+LOCATION:Coliseum Burgos — Av. del Arlanzón, s/n, 09004 Burgos, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -407,12 +424,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6b5a34da-4b42-465d-ba4b-07c2a1c46272@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:83e2e91c-842f-4093-a01f-d441a8437a34@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260214T190000
+DTEND;TZID=Atlantic/Canary:20260214T210000
 SUMMARY:ACB: La Laguna Tenerife - Río Breogán
-DTSTART:20260214T190000Z
-DTEND:20260214T210000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -428,12 +445,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9b1bcacc-0e9e-4fb0-9477-8e5b41d253d7@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:4e93aa1c-72c9-476a-9333-4698fe07d7eb@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260307T170000
+DTEND;TZID=Atlantic/Canary:20260307T190000
 SUMMARY:ACB: BAXI Manresa - La Laguna Tenerife
-DTSTART:20260307T160000Z
-DTEND:20260307T180000Z
-LOCATION:Pavelló Nou Congost — Avinguda del Congost\, s/n\, 08240 Manresa\, Barcelona\, Spain
+LOCATION:Pavelló Nou Congost — Avinguda del Congost, s/n, 08240 Manresa, Barcelona, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -449,12 +466,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3877c4e5-13f7-42f7-bc5e-27decef79eb9@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:c58e3b88-d653-4fc2-9c83-6177c4f059b1@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260314T190000
+DTEND;TZID=Atlantic/Canary:20260314T210000
 SUMMARY:ACB: La Laguna Tenerife - Valencia Basket
-DTSTART:20260314T190000Z
-DTEND:20260314T210000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -470,12 +487,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c2444014-41fb-43ab-ad43-e03d1ad31316@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:1f0edcf1-df6d-42f3-9be8-bce2139d2e6b@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260321T190000
+DTEND;TZID=Atlantic/Canary:20260321T210000
 SUMMARY:ACB: Unicaja - La Laguna Tenerife
-DTSTART:20260321T180000Z
-DTEND:20260321T200000Z
-LOCATION:Martín Carpena — Av. Miguel Mérida Nicolich\, 2\, 29004 Málaga\, Spain
+LOCATION:Martín Carpena — Av. Miguel Mérida Nicolich, 2, 29004 Málaga, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -491,12 +508,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7afc3653-801d-4af2-94f8-646703bb10fe@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:a69da261-2608-44de-87f5-9d1ee149cbca@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260329T120000
+DTEND;TZID=Atlantic/Canary:20260329T140000
 SUMMARY:ACB: La Laguna Tenerife - Casademont Zaragoza
-DTSTART:20260329T110000Z
-DTEND:20260329T130000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -512,12 +529,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:49ef7b9d-6c23-42dd-ad58-0a91d596e79c@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:1dd6f7a1-b6e1-4598-accf-c103ac48e599@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260405T113000
+DTEND;TZID=Atlantic/Canary:20260405T133000
 SUMMARY:ACB: Hiopos Lleida - La Laguna Tenerife
-DTSTART:20260405T093000Z
-DTEND:20260405T113000Z
-LOCATION:Pavelló Barris Nord — Av. Prat de la Riba\, 113\, 25005 Lleida\, Spain
+LOCATION:Pavelló Barris Nord — Av. Prat de la Riba, 113, 25005 Lleida, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -533,12 +550,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2065091c-1b2d-4c22-b1cb-15f558c4faf5@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:c57145a7-9a8f-4f48-a725-84f4e68f7faa@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260411T190000
+DTEND;TZID=Atlantic/Canary:20260411T210000
 SUMMARY:ACB: La Laguna Tenerife - Bàsquet Girona
-DTSTART:20260411T180000Z
-DTEND:20260411T200000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -554,12 +571,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c1e5a17b-81da-4d78-8beb-6c4fb3ccf10d@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:25e8a839-273a-4956-9562-b2a07b4cb62e@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260419T180000
+DTEND;TZID=Atlantic/Canary:20260419T200000
 SUMMARY:ACB: Real Madrid - La Laguna Tenerife
-DTSTART:20260419T160000Z
-DTEND:20260419T180000Z
-LOCATION:WiZink Center — Av. Felipe II\, s/n\, 28009 Madrid\, Spain
+LOCATION:WiZink Center — Av. Felipe II, s/n, 28009 Madrid, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -575,12 +592,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:040f24ba-87d8-40bf-a9fd-c37aaf670136@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:927c3f6c-ab37-46aa-be29-7d7e3aa6c975@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260425T180000
+DTEND;TZID=Atlantic/Canary:20260425T200000
 SUMMARY:ACB: UCAM Murcia - La Laguna Tenerife
-DTSTART:20260425T160000Z
-DTEND:20260425T180000Z
-LOCATION:Palacio de los Deportes — Av. del Rocío\, 7\, 30007 Murcia\, Spain
+LOCATION:Palacio de los Deportes — Av. del Rocío, 7, 30007 Murcia, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -596,12 +613,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:989b645b-276c-4763-870d-c42f05293274@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:caaa99b1-7579-48ab-a8da-84fb3fcbdf60@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260502T190000
+DTEND;TZID=Atlantic/Canary:20260502T210000
 SUMMARY:ACB: La Laguna Tenerife - MoraBanc Andorra
-DTSTART:20260502T180000Z
-DTEND:20260502T200000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -617,12 +634,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4240f2e3-4821-4248-99ad-dc6d50b9059b@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:9ecdef1a-58e8-40a9-b84c-444d47e8ab69@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260509T190000
+DTEND;TZID=Atlantic/Canary:20260509T210000
 SUMMARY:ACB: La Laguna Tenerife - Joventut Badalona
-DTSTART:20260509T180000Z
-DTEND:20260509T200000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -638,12 +655,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:04667641-f162-4a8b-bd87-20de123818da@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:a92f16ad-543c-46db-b0e7-8e4f507ae6d0@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260514T200000
+DTEND;TZID=Atlantic/Canary:20260514T220000
 SUMMARY:ACB: Dreamland Gran Canaria - La Laguna Tenerife
-DTSTART:20260514T190000Z
-DTEND:20260514T210000Z
-LOCATION:Gran Canaria Arena — C. Fondos de Segura\, s/n\, 35019 Las Palmas de Gran Canaria\, Spain
+LOCATION:Gran Canaria Arena — C. Fondos de Segura, s/n, 35019 Las Palmas de Gran Canaria, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -659,12 +676,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5cb009e0-9d62-4f2b-9262-cba73fc1bca8@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:4e9ec177-b6f3-4360-b60f-ed0f7884a030@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260517T180000
+DTEND;TZID=Atlantic/Canary:20260517T200000
 SUMMARY:ACB: La Laguna Tenerife - Barça
-DTSTART:20260517T170000Z
-DTEND:20260517T190000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -680,12 +697,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:23926016-f6be-47a4-84f9-8624627729ff@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:a475b285-c34a-4ae7-95c4-7f5b34f54dfa@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260523T200000
+DTEND;TZID=Atlantic/Canary:20260523T220000
 SUMMARY:ACB: Covirán Granada - La Laguna Tenerife
-DTSTART:20260523T180000Z
-DTEND:20260523T200000Z
-LOCATION:Palacio de Deportes de Granada — Paseo Prof. Juan Ossorio Morales\, s/n\, 18008 Granada\, Spain
+LOCATION:Palacio de Deportes de Granada — Paseo Prof. Juan Ossorio Morales, s/n, 18008 Granada, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
@@ -701,12 +718,12 @@ DESCRIPTION:Reminder: Tenerife game in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cc032b34-9a3a-4ab4-a2d8-c193a482e018@canarias-acb
-DTSTAMP:20251009T081929Z
+UID:5fed5aa5-6563-4c34-b848-1e62581911f4@canarias-acb
+DTSTAMP:20251009T083528Z
+DTSTART;TZID=Atlantic/Canary:20260529T000000
+DTEND;TZID=Atlantic/Canary:20260529T020000
 SUMMARY:ACB: La Laguna Tenerife - Surne Bilbao Basket
-DTSTART:20260528T230000Z
-DTEND:20260529T010000Z
-LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas\, s/n\, 38108 San Cristóbal de La Laguna\, Santa Cruz de Tenerife\, Spain
+LOCATION:Pabellón Insular Santiago Martín — Camino Las Majadas, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife, Spain
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 CATEGORIES:Banana,ACB,Lenovo Tenerife
