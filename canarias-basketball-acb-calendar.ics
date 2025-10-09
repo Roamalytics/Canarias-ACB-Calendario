@@ -25,8 +25,8 @@ TZNAME:WEST
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:113eb334-cc81-43c5-9990-2d27b75dad62@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:e8f176d5-97a5-4386-8edf-77c26ebf6505@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251004T190000
 DTEND;TZID=Atlantic/Canary:20251004T210000
 SUMMARY:ACB: Canarias - BAXI Manresa
@@ -37,17 +37,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:03fdcd2f-1eeb-4091-9b7b-2064132970f9@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:27f472ec-d5f1-45f4-86b8-0d82eb53b44f@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251011T180000
 DTEND;TZID=Atlantic/Canary:20251011T200000
 SUMMARY:ACB: MoraBanc Andorra - Canarias
@@ -58,17 +58,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:b6349a87-0b9b-4dfe-88e0-9d698faf4612@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:782b5a7a-d1e3-4b63-af0f-d84605c49977@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251018T190000
 DTEND;TZID=Atlantic/Canary:20251018T210000
 SUMMARY:ACB: Canarias - UCAM Murcia
@@ -79,17 +79,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6ccbfed4-7aec-4d66-b682-e3a1cdc81c81@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:08742899-5597-4430-bfd4-1ef92d61fab3@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251025T190000
 DTEND;TZID=Atlantic/Canary:20251025T210000
 SUMMARY:ACB: Canarias - Unicaja
@@ -100,17 +100,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:b5e78d6a-2a11-4109-a01c-488ed151a404@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:0004c3ca-a20a-4614-a909-5232e2755ce7@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251102T180000
 DTEND;TZID=Atlantic/Canary:20251102T200000
 SUMMARY:ACB: Baskonia - Canarias
@@ -121,17 +121,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eca2cd90-a678-4586-9331-fc09e0a7ef71@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:1ce7f613-435c-4021-ba69-9ff7eb0fe0f0@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251108T190000
 DTEND;TZID=Atlantic/Canary:20251108T210000
 SUMMARY:ACB: Canarias - San Pablo Burgos
@@ -142,17 +142,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8806b7ff-e5ad-42c7-8465-89b8011e5182@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:8d79f193-41cd-426e-beac-ddb439696ee3@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251116T113000
 DTEND;TZID=Atlantic/Canary:20251116T133000
 SUMMARY:ACB: Valencia Basket - Canarias
@@ -163,17 +163,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7228a493-5c0e-412d-b015-8eb4b6e62790@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:c26541ea-2e59-47a2-9c6b-59b1763728df@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251123T170000
 DTEND;TZID=Atlantic/Canary:20251123T190000
 SUMMARY:ACB: Casademont Zaragoza - Canarias
@@ -184,17 +184,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:90a9c89a-9617-4d69-bc4d-297a7a7a40bd@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:811c56f1-9fcd-44dc-a4e1-a89350246720@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251207T120000
 DTEND;TZID=Atlantic/Canary:20251207T140000
 SUMMARY:ACB: Canarias - Real Madrid
@@ -205,17 +205,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dfcfa47b-2b67-4754-87ca-051b4edc5cd0@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:18aa80c4-4b55-48c6-b86b-4bef1155fa02@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251213T180000
 DTEND;TZID=Atlantic/Canary:20251213T200000
 SUMMARY:ACB: Río Breogán - Canarias
@@ -226,17 +226,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:60127478-6c0c-41ef-92d7-dff93f753858@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:ee951e06-fadd-4865-a575-07d1e252e879@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251220T170000
 DTEND;TZID=Atlantic/Canary:20251220T190000
 SUMMARY:ACB: Bàsquet Girona - Canarias
@@ -247,17 +247,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2ccf2abc-d4b2-46e2-baf9-cd516c453cac@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:f0ba81ef-034e-4152-8f9c-4998bc091a0e@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251228T120000
 DTEND;TZID=Atlantic/Canary:20251228T140000
 SUMMARY:ACB: Canarias - Dreamland Gran Canaria
@@ -268,17 +268,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8abc008e-144e-4fd7-a0cf-ea4d5ef697db@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:d8946aaf-a397-49ab-bc5c-1e75a609b6fd@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251230T190000
 DTEND;TZID=Atlantic/Canary:20251230T210000
 SUMMARY:ACB: Canarias - Covirán Granada
@@ -289,17 +289,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9f9a6f58-31f0-41ac-8346-8bcd4119891c@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:4790d0df-e313-4753-b609-90c3533f406b@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260103T200000
 DTEND;TZID=Atlantic/Canary:20260103T220000
 SUMMARY:ACB: Joventut Badalona - Canarias
@@ -310,17 +310,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:db2a5744-a752-4b77-8067-ae83b36cfb5e@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:811813b0-dd4a-4892-a589-bb129a15faa4@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260110T190000
 DTEND;TZID=Atlantic/Canary:20260110T210000
 SUMMARY:ACB: Canarias - Hiopos Lleida
@@ -331,17 +331,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:99e82b01-6a8b-4956-a8b7-650a98c90a6b@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:044c643b-6bc3-42b7-ae8b-ac54d295723d@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260117T200000
 DTEND;TZID=Atlantic/Canary:20260117T220000
 SUMMARY:ACB: Surne Bilbao Basket - Canarias
@@ -352,17 +352,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ec79b1de-9970-45e0-96da-a8b9fec8af66@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:cb1690f8-8edf-4306-a432-6e26d7bff7e2@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260125T180000
 DTEND;TZID=Atlantic/Canary:20260125T200000
 SUMMARY:ACB: Barça - Canarias
@@ -373,17 +373,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:e7d2d6af-3f79-4a6b-b9aa-b78361ce7507@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:bf481acb-1b88-44a7-8734-92e89644ebde@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260201T170000
 DTEND;TZID=Atlantic/Canary:20260201T190000
 SUMMARY:ACB: Canarias - Baskonia
@@ -394,17 +394,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:aeb9e06c-a23c-47fb-b74b-964a417339e1@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:65d2e1dd-3b4c-4c2a-9ae7-f051f953e1a1@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260207T170000
 DTEND;TZID=Atlantic/Canary:20260207T190000
 SUMMARY:ACB: San Pablo Burgos - Canarias
@@ -415,17 +415,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ee1286e9-c441-4105-9328-cfc0863fa86e@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:c3028f24-803f-49dd-a811-b9ea2ab6af98@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260214T190000
 DTEND;TZID=Atlantic/Canary:20260214T210000
 SUMMARY:ACB: Canarias - Río Breogán
@@ -436,17 +436,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d6def42f-4f8d-4ecd-9e28-ed859f1857f3@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:dd4bbcab-d5f2-4ff5-b090-9bb199184099@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260307T170000
 DTEND;TZID=Atlantic/Canary:20260307T190000
 SUMMARY:ACB: BAXI Manresa - Canarias
@@ -457,17 +457,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d9aa4f73-2d2b-4021-a340-348dda7e831e@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:dcf09212-8b0a-4ee6-86e2-fae46e6fb247@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260314T190000
 DTEND;TZID=Atlantic/Canary:20260314T210000
 SUMMARY:ACB: Canarias - Valencia Basket
@@ -478,17 +478,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ab240542-f0c9-4447-98aa-e14625d698ec@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:02bfd3e6-da1d-4b2c-9823-b49f2a648a31@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260321T190000
 DTEND;TZID=Atlantic/Canary:20260321T210000
 SUMMARY:ACB: Unicaja - Canarias
@@ -499,17 +499,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:782b8299-6283-4fce-b26c-c1a274b1eceb@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:b73f9a85-c69a-41b4-99ff-a88d9c61d77f@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260329T120000
 DTEND;TZID=Atlantic/Canary:20260329T140000
 SUMMARY:ACB: Canarias - Casademont Zaragoza
@@ -520,17 +520,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f5ae74b6-a86c-4246-b672-119dd74f8201@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:92f107c9-d423-4768-a734-5c9d3a40fbc4@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260405T113000
 DTEND;TZID=Atlantic/Canary:20260405T133000
 SUMMARY:ACB: Hiopos Lleida - Canarias
@@ -541,17 +541,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5ecb207d-041c-4844-841b-7f185808fe30@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:4b4f0838-0518-43ae-ba71-560b9fbf2a6c@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260411T190000
 DTEND;TZID=Atlantic/Canary:20260411T210000
 SUMMARY:ACB: Canarias - Bàsquet Girona
@@ -562,17 +562,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3ae7d960-ae1f-4744-9292-8dbf1ec97729@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:fb1b971c-d34a-446f-884e-7920a6feea75@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260419T180000
 DTEND;TZID=Atlantic/Canary:20260419T200000
 SUMMARY:ACB: Real Madrid - Canarias
@@ -583,17 +583,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4f2f6e6a-4a5c-4d42-8e76-f32466ee32fa@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:0a62de74-6ee4-4623-8838-14af932b2bb8@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260425T180000
 DTEND;TZID=Atlantic/Canary:20260425T200000
 SUMMARY:ACB: UCAM Murcia - Canarias
@@ -604,17 +604,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a125f7bf-a23a-449e-9e68-aa0b5e4ed9cd@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:45d3b43a-9579-4726-ba09-232efa1e041f@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260502T190000
 DTEND;TZID=Atlantic/Canary:20260502T210000
 SUMMARY:ACB: Canarias - MoraBanc Andorra
@@ -625,17 +625,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5628369d-73b1-443a-89ea-188420eb527c@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:e76aed13-cc8a-43f9-8213-d4338e2db0f6@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260509T190000
 DTEND;TZID=Atlantic/Canary:20260509T210000
 SUMMARY:ACB: Canarias - Joventut Badalona
@@ -646,17 +646,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ccf419f2-668b-445e-8b87-2df93342cd2a@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:2e78b186-75c5-4672-8092-406e98292c85@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260514T200000
 DTEND;TZID=Atlantic/Canary:20260514T220000
 SUMMARY:ACB: Dreamland Gran Canaria - Canarias
@@ -667,17 +667,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:e3cbe76a-7b80-4c2a-b29c-1594f6817b87@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:0416ab7a-fe70-4264-8035-a8805cf3445d@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260517T180000
 DTEND;TZID=Atlantic/Canary:20260517T200000
 SUMMARY:ACB: Canarias - Barça
@@ -688,17 +688,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c319b6f4-ee9a-49a8-ab88-3155eaa1205c@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:51e5c800-be52-4fb7-811a-251cc66166c3@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260523T200000
 DTEND;TZID=Atlantic/Canary:20260523T220000
 SUMMARY:ACB: Covirán Granada - Canarias
@@ -709,17 +709,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:91bdf10f-951c-4c9a-bd74-90f214c8a808@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:2795c9be-a046-4fe6-97b4-31bb7d81626b@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20260529T000000
 DTEND;TZID=Atlantic/Canary:20260529T020000
 SUMMARY:ACB: Canarias - Surne Bilbao Basket
@@ -730,17 +730,17 @@ CATEGORIES:Banana,ACB,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:1d559cda-4eea-430a-8008-5baefa34aa0d@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:0ee67997-af77-4b92-a19b-f834fe82b156@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251008T193000
 DTEND;TZID=Atlantic/Canary:20251008T213000
 SUMMARY:BCL: Trapani Shark - Canarias
@@ -751,17 +751,17 @@ CATEGORIES:Banana,BCL,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:1e15f0c6-358a-45fa-96cb-9f270a8c9ed9@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:e281deae-d8aa-425d-9bda-4f93fdeb4e76@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251014T193000
 DTEND;TZID=Atlantic/Canary:20251014T213000
 SUMMARY:BCL: Canarias - Bnei Herzliya
@@ -772,17 +772,17 @@ CATEGORIES:Banana,BCL,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb09d6ef-19c9-4d3a-a25a-387225319fc7@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:dfc29d12-37ca-4a27-a332-0b58fed5fab0@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251028T180000
 DTEND;TZID=Atlantic/Canary:20251028T200000
 SUMMARY:BCL: Tofaş Bursa - Canarias
@@ -793,17 +793,17 @@ CATEGORIES:Banana,BCL,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4fd0d50a-1fce-4fd8-9de7-b834f5a7b9ae@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:5ffaebdf-9acc-4fc0-a3bb-2490fd08aa3d@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251111T193000
 DTEND;TZID=Atlantic/Canary:20251111T213000
 SUMMARY:BCL: Canarias - Tofaş Bursa
@@ -814,17 +814,17 @@ CATEGORIES:Banana,BCL,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a0a802bd-5823-40b1-b644-f920e7d76ce6@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:3ebe0c35-e5eb-4bc7-956f-34d415c75954@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251210T193000
 DTEND;TZID=Atlantic/Canary:20251210T213000
 SUMMARY:BCL: Canarias - Trapani Shark
@@ -835,17 +835,17 @@ CATEGORIES:Banana,BCL,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:573a71c4-2ee5-449f-8402-de452da223cb@canarias-calendar
-DTSTAMP:20251009T090955Z
+UID:b8599a8b-87e5-4187-8fab-2762f3f55c1f@canarias-calendar
+DTSTAMP:20251009T091637Z
 DTSTART;TZID=Atlantic/Canary:20251216T190000
 DTEND;TZID=Atlantic/Canary:20251216T210000
 SUMMARY:BCL: Bnei Herzliya - Canarias
@@ -856,12 +856,12 @@ CATEGORIES:Banana,BCL,Canarias
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game tomorrow!
+DESCRIPTION:Reminder: Mañana juega el Canarias
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Canarias game in 1 hour!
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
 END:VEVENT
 END:VCALENDAR
