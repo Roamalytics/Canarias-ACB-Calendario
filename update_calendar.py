@@ -15,8 +15,17 @@ import uuid
 import os
 import difflib
 
-CAL_FILE = "canarias-basketball-acb-calendar.ics"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CAL_FILE = os.path.join(BASE_DIR, "canarias-basketball-acb-calendar.ics")
 TZID = "Atlantic/Canary"
+REQUEST_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+}
 
 # Normalize Tenerife name variants
 NAME_MAP = {
@@ -34,44 +43,34 @@ def normalize_team(name: str) -> str:
     return n
 
 
-def get_acb_fixtures():
-    """Scrape fixtures from cbcanarias.net/temporada"""
-    url = "https://cbcanarias.net/temporada"
-    r = requests.get(url, timeout=20)
+def get_fixtures():
+    """Scrape ACB/BCL fixtures from cbcanarias.net/temporada."""
+    url = "https://cbcanarias.net/temporada/"
+    r = requests.get(url, headers=REQUEST_HEADERS, timeout=20)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "lxml")
 
     fixtures = []
-    for row in soup.select("div.match-info"):
+    for row in soup.select("tr.sp-row.sp-post"):
         try:
-            date_text = row.select_one("div.match-date").get_text(strip=True)
-            time_text = row.select_one("div.match-hour").get_text(strip=True)
-            teams = [t.get_text(strip=True) for t in row.select("div.match-team")]
-            if len(teams) == 2:
-                home, away = map(normalize_team, teams)
-                dt = datetime.strptime(f"{date_text} {time_text}", "%d/%m/%Y %H:%M")
-                fixtures.append(("ACB", home, away, dt))
-        except Exception:
-            continue
-    return fixtures
+            date_node = row.select_one("time.sp-event-date")
+            title_node = row.select_one("h4.sp-event-title a")
+            if not date_node or not title_node:
+                continue
 
+            dt_raw = (date_node.get("datetime") or "").strip()
+            if not dt_raw:
+                continue
 
-def get_bcl_fixtures():
-    """Scrape fixtures from BCL team page"""
-    url = "https://www.championsleague.basketball/en/teams/la-laguna-tenerife"
-    r = requests.get(url, timeout=20)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "lxml")
+            dt = datetime.strptime(dt_raw[:16], "%Y-%m-%d %H:%M")
+            teams = [s.get("title", "").strip() for s in row.select("span.team-logo")]
+            if len(teams) != 2 or not teams[0] or not teams[1]:
+                continue
 
-    fixtures = []
-    for game in soup.select("div.schedule__game"):
-        try:
-            date = game.select_one("div.schedule__date").get_text(strip=True)
-            time = game.select_one("div.schedule__time").get_text(strip=True)
-            home = normalize_team(game.select_one("div.schedule__team--home").get_text(strip=True))
-            away = normalize_team(game.select_one("div.schedule__team--away").get_text(strip=True))
-            dt = datetime.strptime(f"{date} {time}", "%d %b %Y %H:%M")
-            fixtures.append(("BCL", home, away, dt))
+            home, away = map(normalize_team, teams)
+            title = title_node.get_text(strip=True).upper()
+            comp = "BCL" if "BCL" in title else "ACB"
+            fixtures.append((comp, home, away, dt))
         except Exception:
             continue
     return fixtures
@@ -85,7 +84,7 @@ def generate_ics(fixtures):
     ics.append("PRODID:-//Canarias Basketball Calendar//EN")
     ics.append("CALSCALE:GREGORIAN")
     ics.append("METHOD:PUBLISH")
-    ics.append(f"X-WR-CALNAME:{CAL_FILE}")
+    ics.append("X-WR-CALNAME:canarias-basketball-acb-calendar.ics")
     ics.append(f"X-WR-TIMEZONE:{TZID}")
     ics.append("CATEGORIES:Banana")
 
@@ -131,9 +130,7 @@ def summarize_changes(old_text, new_text):
 
 def main():
     print("🔄 Checking for fixture updates...")
-    acb = get_acb_fixtures()
-    bcl = get_bcl_fixtures()
-    fixtures = sorted(acb + bcl, key=lambda x: x[3])
+    fixtures = sorted(get_fixtures(), key=lambda x: x[3])
 
     new_ics = generate_ics(fixtures)
     old_ics = ""
