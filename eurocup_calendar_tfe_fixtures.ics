@@ -1,0 +1,338 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Roamalytics//Canarias Basketball Calendar//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Canarias EuroCup
+X-WR-TIMEZONE:Atlantic/Canary
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+COLOR:gold
+X-APPLE-CALENDAR-COLOR:#F5C400
+BEGIN:VTIMEZONE
+TZID:Atlantic/Canary
+X-LIC-LOCATION:Atlantic/Canary
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:WEST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:WET
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d902532dd4d8dff16b60@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-turk-telekom-ankara
+DTSTART;TZID=Atlantic/Canary:20260930T200000
+DTEND;TZID=Atlantic/Canary:20260930T220000
+SUMMARY:EC: Canarias - Turk Telekom Ankara
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-turk-telekom-ankara/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4781ba8e57937fc9841d@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|london-lions-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20261006T193000
+DTEND;TZID=Atlantic/Canary:20261006T213000
+SUMMARY:EC: London Lions - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/london-lions-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3fb336b3783778351894@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-maxima-roma
+DTSTART;TZID=Atlantic/Canary:20261014T200000
+DTEND;TZID=Atlantic/Canary:20261014T220000
+SUMMARY:EC: Canarias - Maxima Roma
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-maxima-roma/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20a27398289cf41c0cca@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|skyliners-frankfurt-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20261021T183000
+DTEND;TZID=Atlantic/Canary:20261021T203000
+SUMMARY:EC: Skyliners Frankfurt - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/skyliners-frankfurt-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7ba907642d1cd3a4b3d9@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-reyer-venezia
+DTSTART;TZID=Atlantic/Canary:20261028T200000
+DTEND;TZID=Atlantic/Canary:20261028T220000
+SUMMARY:EC: Canarias - Reyer Venezia
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-reyer-venezia/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6e8072d413c0a15632db@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-cluj-napoca
+DTSTART;TZID=Atlantic/Canary:20261104T200000
+DTEND;TZID=Atlantic/Canary:20261104T220000
+SUMMARY:EC: Canarias - U-BT Cluj-Napoca
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-cluj-napoca/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c6eb0b24d27d9ed319c3@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|siaulai-basketball-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20261111T163000
+DTEND;TZID=Atlantic/Canary:20261111T183000
+SUMMARY:EC: Siauliai - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/siaulai-basketball-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b32939563f0eb7097ae7@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|turk-telekom-ankara-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20261117T160000
+DTEND;TZID=Atlantic/Canary:20261117T180000
+SUMMARY:EC: Turk Telekom Ankara - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/turk-telekom-ankara-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:12390ed4fc470dff60ca@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-london-lions
+DTSTART;TZID=Atlantic/Canary:20261208T200000
+DTEND;TZID=Atlantic/Canary:20261208T220000
+SUMMARY:EC: Canarias - London Lions
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-london-lions/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7cc1cee3b9effea1d54c@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|maxima-roma-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20261216T200000
+DTEND;TZID=Atlantic/Canary:20261216T220000
+SUMMARY:EC: Maxima Roma - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/maxima-roma-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:125babce2fe61aac2637@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-skyliners-frankfurt
+DTSTART;TZID=Atlantic/Canary:20261223T200000
+DTEND;TZID=Atlantic/Canary:20261223T220000
+SUMMARY:EC: Canarias - Skyliners Frankfurt
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-skyliners-frankfurt/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f001ae09aaef64969d3e@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|reyer-venezia-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20261229T190000
+DTEND;TZID=Atlantic/Canary:20261229T210000
+SUMMARY:EC: Reyer Venezia - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/reyer-venezia-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1e43b511f5eaf8955c87@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|cluj-napoca-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20270105T170000
+DTEND;TZID=Atlantic/Canary:20270105T190000
+SUMMARY:EC: U-BT Cluj-Napoca - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/cluj-napoca-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:036f124c2523d11ebdc5@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-siaulai-basketball
+DTSTART;TZID=Atlantic/Canary:20270113T200000
+DTEND;TZID=Atlantic/Canary:20270113T220000
+SUMMARY:EC: Canarias - Siauliai
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-siaulai-basketball/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

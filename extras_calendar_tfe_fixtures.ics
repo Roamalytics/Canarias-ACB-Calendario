@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Roamalytics//Canarias Basketball Calendar//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Canarias amistosos y playoffs
+X-WR-TIMEZONE:Atlantic/Canary
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+COLOR:gold
+X-APPLE-CALENDAR-COLOR:#F5C400
+BEGIN:VTIMEZONE
+TZID:Atlantic/Canary
+X-LIC-LOCATION:Atlantic/Canary
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:WEST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:WET
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c27c0b030ac9ada4439d@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:row|amistoso|2026-2027|canarias|surne bilbao|copa tenerife despierta emociones
+DTSTART;TZID=Atlantic/Canary:20260920T120000
+DTEND;TZID=Atlantic/Canary:20260920T140000
+SUMMARY:Amistoso: Canarias - Surne Bilbao (Copa Tenerife despierta emociones)
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: extra_fixtures.csv\nhttps://cbcanarias.net/2026/09/09/las-entradas-para-la-copa-tenerife-despierta-emociones-a-la-venta-desde-este-jueves/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:14b2ec6bc5dff04dd1d9@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:row|playoff acb|2026-2027|cuartos de final|semana 25-31 mayo (si clasifica)|
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:Playoff ACB: Cuartos de final - semana 25-31 mayo (si clasifica)
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: extra_fixtures.csv\nhttps://acb.com/docs/calendario/calendarioLigaEndesa202627.pdf
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c64f94e7935e22773c14@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:row|playoff acb|2026-2027|semifinales|semana 1-13 junio (si clasifica)|
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:Playoff ACB: Semifinales - semana 1-13 junio (si clasifica)
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: extra_fixtures.csv\nhttps://acb.com/docs/calendario/calendarioLigaEndesa202627.pdf
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0aa1dd349bd6e5d0855d@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:row|playoff acb|2026-2027|final|15-29 junio (si clasifica)|
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Playoff ACB: Final - 15-29 junio (si clasifica)
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: extra_fixtures.csv\nhttps://acb.com/docs/calendario/calendarioLigaEndesa202627.pdf
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

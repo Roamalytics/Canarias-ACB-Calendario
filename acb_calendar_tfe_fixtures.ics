@@ -1,11 +1,32 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Canarias Basketball Calendar//EN
+PRODID:-//Roamalytics//Canarias Basketball Calendar//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:canarias-basketball-acb-calendar.ics
+X-WR-CALNAME:Canarias ACB
 X-WR-TIMEZONE:Atlantic/Canary
-CATEGORIES:Banana
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+COLOR:gold
+X-APPLE-CALENDAR-COLOR:#F5C400
+BEGIN:VTIMEZONE
+TZID:Atlantic/Canary
+X-LIC-LOCATION:Atlantic/Canary
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:WEST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:WET
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:4c6e5d19-35f3-4824-af88-c213302827ad@canarias-calendar
 DTSTAMP:20260506T110338Z
@@ -974,5 +995,743 @@ TRIGGER:-PT1H
 ACTION:DISPLAY
 DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1fe9f632453f1928f455@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-casademont-zaragoza-3
+DTSTART;TZID=Atlantic/Canary:20260927T120000
+DTEND;TZID=Atlantic/Canary:20260927T140000
+SUMMARY:ACB: Canarias - Casademont Zaragoza
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-casademont-zaragoza-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:27889da913a936d49ee3@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|unicaja-malaga-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20261003T183000
+DTEND;TZID=Atlantic/Canary:20261003T203000
+SUMMARY:ACB: Unicaja - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/unicaja-malaga-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:55a52ec031c74cdc70db@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|ucam-murcia-vs-la-laguna-tenerife-3
+DTSTART;TZID=Atlantic/Canary:20261011T113000
+DTEND;TZID=Atlantic/Canary:20261011T133000
+SUMMARY:ACB: UCAM Murcia - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/ucam-murcia-vs-la-laguna-tenerife-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:49d9d8e8a5a1e49b6bc8@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-kosner-baskonia
+DTSTART;TZID=Atlantic/Canary:20261018T170000
+DTEND;TZID=Atlantic/Canary:20261018T190000
+SUMMARY:ACB: Canarias - Kosner Baskonia
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-kosner-baskonia/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1309c49ae0babebac65@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-monbus-obradoiro
+DTSTART;TZID=Atlantic/Canary:20261025T120000
+DTEND;TZID=Atlantic/Canary:20261025T140000
+SUMMARY:ACB: Canarias - Monbus Obradoiro
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-monbus-obradoiro/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:87dc9d3c6c2b93aca8a7@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|leyma-coruna-vs-la-laguna-tenerife-2
+DTSTART;TZID=Atlantic/Canary:20261031T200000
+DTEND;TZID=Atlantic/Canary:20261031T220000
+SUMMARY:ACB: Leyma Coruña - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/leyma-coruna-vs-la-laguna-tenerife-2/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ef8c447303f4faf08d3f@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-asisa-joventut
+DTSTART;TZID=Atlantic/Canary:20261108T120000
+DTEND;TZID=Atlantic/Canary:20261108T140000
+SUMMARY:ACB: Canarias - Asisa Joventut
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-asisa-joventut/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:be4c6dabcfad191a62ba@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|morabanc-andorra-vs-la-laguna-tenerife-3
+DTSTART;TZID=Atlantic/Canary:20261114T183000
+DTEND;TZID=Atlantic/Canary:20261114T203000
+SUMMARY:ACB: MoraBanc Andorra - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/morabanc-andorra-vs-la-laguna-tenerife-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9c8860762684649d6963@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-barca-3
+DTSTART;TZID=Atlantic/Canary:20261122T170000
+DTEND;TZID=Atlantic/Canary:20261122T190000
+SUMMARY:ACB: Canarias - Barça
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-barca-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:048393fb831be4d2e2d3@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|ilerna-lleida-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20261205T170000
+DTEND;TZID=Atlantic/Canary:20261205T190000
+SUMMARY:ACB: iLERNA Lleida - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/ilerna-lleida-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:495d07d84331f3333303@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-kidsus-manresa
+DTSTART;TZID=Atlantic/Canary:20261211T200000
+DTEND;TZID=Atlantic/Canary:20261211T220000
+SUMMARY:ACB: Canarias - Kids&Us Manresa
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-kidsus-manresa/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:edeba05332449a2c1a16@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-fiatc-girona
+DTSTART;TZID=Atlantic/Canary:20261213T170000
+DTEND;TZID=Atlantic/Canary:20261213T190000
+SUMMARY:ACB: Canarias - FIATC Girona
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-fiatc-girona/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3b2c360c5956598a0d66@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|valencia-basket-vs-la-laguna-tenerife-5
+DTSTART;TZID=Atlantic/Canary:20261220T113000
+DTEND;TZID=Atlantic/Canary:20261220T133000
+SUMMARY:ACB: Valencia Basket - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/valencia-basket-vs-la-laguna-tenerife-5/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fcf7d440a87a63680b6c@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-surne-bilbao-basket-2
+DTSTART;TZID=Atlantic/Canary:20261227T120000
+DTEND;TZID=Atlantic/Canary:20261227T140000
+SUMMARY:ACB: Canarias - Surne Bilbao
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-surne-bilbao-basket-2/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9f51cdd932d9b82c5318@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|real-madrid-vs-la-laguna-tenerife-3
+DTSTART;TZID=Atlantic/Canary:20270102T200000
+DTEND;TZID=Atlantic/Canary:20270102T220000
+SUMMARY:ACB: Real Madrid - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/real-madrid-vs-la-laguna-tenerife-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4c73d0164c9f8657baf5@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|san-pablo-burgos-vs-la-laguna-tenerife-2
+DTSTART;TZID=Atlantic/Canary:20270108T190000
+DTEND;TZID=Atlantic/Canary:20270108T210000
+SUMMARY:ACB: San Pablo Burgos - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/san-pablo-burgos-vs-la-laguna-tenerife-2/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:17a3f32bb0942ba902bc@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-rio-breogan-3
+DTSTART;TZID=Atlantic/Canary:20270110T180000
+DTEND;TZID=Atlantic/Canary:20270110T200000
+SUMMARY:ACB: Canarias - Río Breogán
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-rio-breogan-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e4a98bf342a9a7a35e2b@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|casademont-zaragoza-vs-la-laguna-tenerife-3
+DTSTART;TZID=Atlantic/Canary:20270116T200000
+DTEND;TZID=Atlantic/Canary:20270116T220000
+SUMMARY:ACB: Casademont Zaragoza - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/casademont-zaragoza-vs-la-laguna-tenerife-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4947e9fd5bef2ff4f0d4@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-morabanc-andorra-3
+DTSTART;TZID=Atlantic/Canary:20270123T200000
+DTEND;TZID=Atlantic/Canary:20270123T220000
+SUMMARY:ACB: Canarias - MoraBanc Andorra
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-morabanc-andorra-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:413e215667a18f28fe31@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-ilerna-lleida
+DTSTART;TZID=Atlantic/Canary:20270130T200000
+DTEND;TZID=Atlantic/Canary:20270130T220000
+SUMMARY:ACB: Canarias - iLERNA Lleida
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-ilerna-lleida/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4568c369594d17e479ef@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|barca-vs-la-laguna-tenerife-3
+DTSTART;TZID=Atlantic/Canary:20270207T160000
+DTEND;TZID=Atlantic/Canary:20270207T180000
+SUMMARY:ACB: Barça - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/barca-vs-la-laguna-tenerife-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:51c0e9cc317ff2d673b2@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|monbus-obradoiro-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20270214T113000
+DTEND;TZID=Atlantic/Canary:20270214T133000
+SUMMARY:ACB: Monbus Obradoiro - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/monbus-obradoiro-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:100f24441020da74f432@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-valencia-basket-4
+DTSTART;TZID=Atlantic/Canary:20270307T180000
+DTEND;TZID=Atlantic/Canary:20270307T200000
+SUMMARY:ACB: Canarias - Valencia Basket
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-valencia-basket-4/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3a6e007bdf15042663fa@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|surne-bilbao-basket-vs-la-laguna-tenerife-3
+DTSTART;TZID=Atlantic/Canary:20270313T200000
+DTEND;TZID=Atlantic/Canary:20270313T220000
+SUMMARY:ACB: Surne Bilbao - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/surne-bilbao-basket-vs-la-laguna-tenerife-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e3346a4c46e36a53a38f@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-leyma-coruna-2
+DTSTART;TZID=Atlantic/Canary:20270321T170000
+DTEND;TZID=Atlantic/Canary:20270321T190000
+SUMMARY:ACB: Canarias - Leyma Coruña
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-leyma-coruna-2/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:29a409f31581fb771760@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|rio-breogan-vs-la-laguna-tenerife-3
+DTSTART;TZID=Atlantic/Canary:20270327T183000
+DTEND;TZID=Atlantic/Canary:20270327T203000
+SUMMARY:ACB: Río Breogán - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/rio-breogan-vs-la-laguna-tenerife-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6f0e79bdc4b01532049a@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-unicaja-3
+DTSTART;TZID=Atlantic/Canary:20270403T183000
+DTEND;TZID=Atlantic/Canary:20270403T203000
+SUMMARY:ACB: Canarias - Unicaja
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-unicaja-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ee18beb3da62dc83fd85@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-real-madrid-3
+DTSTART;TZID=Atlantic/Canary:20270411T180000
+DTEND;TZID=Atlantic/Canary:20270411T200000
+SUMMARY:ACB: Canarias - Real Madrid
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-real-madrid-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8a9619b77c20709489c3@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|asisa-joventut-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20270418T160000
+DTEND;TZID=Atlantic/Canary:20270418T180000
+SUMMARY:ACB: Asisa Joventut - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/asisa-joventut-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9d7b922fc5226e37dcee@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|kidsus-manresa-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20270424T183000
+DTEND;TZID=Atlantic/Canary:20270424T203000
+SUMMARY:ACB: Kids&Us Manresa - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/kidsus-manresa-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:55e1d2083cc1509277e1@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-ucam-murcia-3
+DTSTART;TZID=Atlantic/Canary:20270502T170000
+DTEND;TZID=Atlantic/Canary:20270502T190000
+SUMMARY:ACB: Canarias - UCAM Murcia
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-ucam-murcia-3/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:efec0775e0e3cd7a7682@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|fiatc-girona-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20270509T170000
+DTEND;TZID=Atlantic/Canary:20270509T190000
+SUMMARY:ACB: FIATC Girona - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/fiatc-girona-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:46f645ed1a7884d8dbb9@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|kosner-baskonia-vs-la-laguna-tenerife
+DTSTART;TZID=Atlantic/Canary:20270515T183000
+DTEND;TZID=Atlantic/Canary:20270515T203000
+SUMMARY:ACB: Kosner Baskonia - Canarias
+LOCATION:Fuera de casa
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/kosner-baskonia-vs-la-laguna-tenerife/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Mañana juega el Canarias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19e40bdaf84b74217756@canarias-calendar
+DTSTAMP:20260915T154957Z
+X-GAME-KEY:event|la-laguna-tenerife-vs-san-pablo-burgos-2
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:ACB: Canarias - San Pablo Burgos (hora por confirmar)
+LOCATION:Pabellón Santiago Martín\, La Laguna
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-san-pablo-burgos-2/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
