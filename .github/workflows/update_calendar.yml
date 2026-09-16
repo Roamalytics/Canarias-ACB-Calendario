@@ -1,0 +1,71 @@
+name: Update calendar
+
+on:
+  schedule:
+    - cron: "17 5 * * *"     # every day 05:17 UTC
+  workflow_dispatch:         # also runnable by hand from the Actions tab
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update calendars
+        id: scrape
+        continue-on-error: true
+        run: python update_calendar.py
+
+      - name: Keepalive stamp
+        run: date -u +%Y-%m-%dT%H:%M:%SZ > last_run.txt
+
+      - name: Commit if anything changed
+        if: steps.scrape.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add *.ics last_run.txt
+          [ -f last_crosscheck.md ] && git add last_crosscheck.md
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update calendars $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Open an issue if a kickoff was overridden by a league source
+        if: steps.scrape.outcome == 'success' && hashFiles('last_crosscheck.md') != ''
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Cross-check: league source differs from club site"
+          content-filepath: last_crosscheck.md
+          labels: cross-check
+
+      - name: Open an issue if the scrape failed
+        if: steps.scrape.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: `Calendar update failed on ${new Date().toISOString().slice(0,10)}`,
+              body: `update_calendar.py exited with an error (club page returned too few fixtures, or a request failed). The .ics files were not changed.\n\nLog: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              labels: ["scrape-failure"]
+            });
+
+      - name: Fail the run if the scrape failed
+        if: steps.scrape.outcome == 'failure'
+        run: exit 1
