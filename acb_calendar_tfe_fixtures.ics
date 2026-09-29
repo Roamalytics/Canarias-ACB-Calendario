@@ -998,25 +998,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1fe9f632453f1928f455@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20260929T112324Z
 X-GAME-KEY:event|la-laguna-tenerife-vs-casademont-zaragoza-3
-DTSTART;TZID=Atlantic/Canary:20260927T120000
-DTEND;TZID=Atlantic/Canary:20260927T140000
-SUMMARY:ACB: Canarias - Casademont Zaragoza
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:ACB: Canarias - Casademont Zaragoza (hora por confirmar)
 LOCATION:Pabellón Santiago Martín\, La Laguna
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-casademont-zaragoza-3/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:27889da913a936d49ee3@canarias-calendar
