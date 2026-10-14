@@ -1087,25 +1087,15 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:55a52ec031c74cdc70db@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261014T101527Z
 X-GAME-KEY:event|ucam-murcia-vs-la-laguna-tenerife-3
-DTSTART;TZID=Atlantic/Canary:20261011T113000
-DTEND;TZID=Atlantic/Canary:20261011T133000
-SUMMARY:ACB: UCAM Murcia - Canarias
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:ACB: UCAM Murcia - Canarias (hora por confirmar)
 LOCATION:Fuera de casa
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/ucam-murcia-vs-la-laguna-tenerife-3/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3fb336b3783778351894@canarias-calendar
