@@ -119,10 +119,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6e8072d413c0a15632db@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261016T095229Z
 X-GAME-KEY:event|la-laguna-tenerife-vs-cluj-napoca
-DTSTART;TZID=Atlantic/Canary:20261104T200000
-DTEND;TZID=Atlantic/Canary:20261104T220000
+DTSTART;TZID=Atlantic/Canary:20261105T200000
+DTEND;TZID=Atlantic/Canary:20261105T220000
 SUMMARY:EC: Canarias - U-BT Cluj-Napoca
 LOCATION:Pabellón Santiago Martín\, La Laguna
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-cluj-napoca/
@@ -207,10 +207,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7cc1cee3b9effea1d54c@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261016T095229Z
 X-GAME-KEY:event|maxima-roma-vs-la-laguna-tenerife
-DTSTART;TZID=Atlantic/Canary:20261216T200000
-DTEND;TZID=Atlantic/Canary:20261216T220000
+DTSTART;TZID=Atlantic/Canary:20261216T193000
+DTEND;TZID=Atlantic/Canary:20261216T213000
 SUMMARY:EC: Maxima Roma - Canarias
 LOCATION:Fuera de casa
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/maxima-roma-vs-la-laguna-tenerife/
