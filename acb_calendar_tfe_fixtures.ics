@@ -1034,25 +1034,15 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:49d9d8e8a5a1e49b6bc8@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261021T101157Z
 X-GAME-KEY:event|la-laguna-tenerife-vs-kosner-baskonia
-DTSTART;TZID=Atlantic/Canary:20261018T170000
-DTEND;TZID=Atlantic/Canary:20261018T190000
-SUMMARY:ACB: Canarias - Kosner Baskonia
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:ACB: Canarias - Kosner Baskonia (hora por confirmar)
 LOCATION:Pabellón Santiago Martín\, La Laguna
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-kosner-baskonia/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d1309c49ae0babebac65@canarias-calendar
