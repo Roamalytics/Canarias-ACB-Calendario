@@ -1123,25 +1123,15 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20a27398289cf41c0cca@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261023T100601Z
 X-GAME-KEY:event|skyliners-frankfurt-vs-la-laguna-tenerife
-DTSTART;TZID=Atlantic/Canary:20261021T183000
-DTEND;TZID=Atlantic/Canary:20261021T203000
-SUMMARY:EC: Skyliners Frankfurt - Canarias
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:EC: Skyliners Frankfurt - Canarias (hora por confirmar)
 LOCATION:Fuera de casa
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/skyliners-frankfurt-vs-la-laguna-tenerife/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d1309c49ae0babebac65@canarias-calendar
