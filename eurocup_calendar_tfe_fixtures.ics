@@ -77,25 +77,15 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:7ba907642d1cd3a4b3d9@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261031T105659Z
 X-GAME-KEY:event|la-laguna-tenerife-vs-reyer-venezia
-DTSTART;TZID=Atlantic/Canary:20261028T200000
-DTEND;TZID=Atlantic/Canary:20261028T220000
-SUMMARY:EC: Canarias - Reyer Venezia
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:EC: Canarias - Reyer Venezia (hora por confirmar)
 LOCATION:Pabellón Santiago Martín\, La Laguna
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-reyer-venezia/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6e8072d413c0a15632db@canarias-calendar

@@ -1046,25 +1046,15 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:d1309c49ae0babebac65@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261031T105659Z
 X-GAME-KEY:event|la-laguna-tenerife-vs-monbus-obradoiro
-DTSTART;TZID=Atlantic/Canary:20261025T120000
-DTEND;TZID=Atlantic/Canary:20261025T140000
-SUMMARY:ACB: Canarias - Monbus Obradoiro
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:ACB: Canarias - Monbus Obradoiro (hora por confirmar)
 LOCATION:Pabellón Santiago Martín\, La Laguna
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-monbus-obradoiro/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:87dc9d3c6c2b93aca8a7@canarias-calendar
