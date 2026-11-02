@@ -1269,13 +1269,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b32939563f0eb7097ae7@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261102T133202Z
 X-GAME-KEY:event|turk-telekom-ankara-vs-la-laguna-tenerife
-DTSTART;TZID=Atlantic/Canary:20261117T160000
-DTEND;TZID=Atlantic/Canary:20261117T180000
+DTSTART;TZID=Atlantic/Canary:20261117T163000
+DTEND;TZID=Atlantic/Canary:20261117T183000
 SUMMARY:EC: Turk Telekom Ankara - Canarias
 LOCATION:Fuera de casa
-DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/turk-telekom-ankara-vs-la-laguna-tenerife/
+DESCRIPTION:Hora canaria. Fuente: euroleaguebasketball.net (overrides club site)\nhttps://cbcanarias.net/event/turk-telekom-ankara-vs-la-laguna-tenerife/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
