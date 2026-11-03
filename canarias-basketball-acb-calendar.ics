@@ -1159,25 +1159,15 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:87dc9d3c6c2b93aca8a7@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261103T124935Z
 X-GAME-KEY:event|leyma-coruna-vs-la-laguna-tenerife-2
-DTSTART;TZID=Atlantic/Canary:20261031T200000
-DTEND;TZID=Atlantic/Canary:20261031T220000
-SUMMARY:ACB: Leyma Coruña - Canarias
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:ACB: Leyma Coruña - Canarias (hora por confirmar)
 LOCATION:Fuera de casa
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/leyma-coruna-vs-la-laguna-tenerife-2/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6e8072d413c0a15632db@canarias-calendar
