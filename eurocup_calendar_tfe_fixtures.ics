@@ -89,25 +89,15 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:6e8072d413c0a15632db@canarias-calendar
-DTSTAMP:20261016T095229Z
+DTSTAMP:20261109T135550Z
 X-GAME-KEY:event|la-laguna-tenerife-vs-cluj-napoca
-DTSTART;TZID=Atlantic/Canary:20261105T200000
-DTEND;TZID=Atlantic/Canary:20261105T220000
-SUMMARY:EC: Canarias - U-BT Cluj-Napoca
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:EC: Canarias - U-BT Cluj-Napoca (hora por confirmar)
 LOCATION:Pabellón Santiago Martín\, La Laguna
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-cluj-napoca/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c6eb0b24d27d9ed319c3@canarias-calendar

@@ -1070,25 +1070,15 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:ef8c447303f4faf08d3f@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261109T135550Z
 X-GAME-KEY:event|la-laguna-tenerife-vs-asisa-joventut
-DTSTART;TZID=Atlantic/Canary:20261108T120000
-DTEND;TZID=Atlantic/Canary:20261108T140000
-SUMMARY:ACB: Canarias - Asisa Joventut
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:ACB: Canarias - Asisa Joventut (hora por confirmar)
 LOCATION:Pabellón Santiago Martín\, La Laguna
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-asisa-joventut/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:be4c6dabcfad191a62ba@canarias-calendar
