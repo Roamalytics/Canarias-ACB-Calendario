@@ -101,35 +101,25 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:c6eb0b24d27d9ed319c3@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261112T134703Z
 X-GAME-KEY:event|siaulai-basketball-vs-la-laguna-tenerife
-DTSTART;TZID=Atlantic/Canary:20261111T163000
-DTEND;TZID=Atlantic/Canary:20261111T183000
-SUMMARY:EC: Siauliai - Canarias
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:EC: Siauliai - Canarias (hora por confirmar)
 LOCATION:Fuera de casa
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/siaulai-basketball-vs-la-laguna-tenerife/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b32939563f0eb7097ae7@canarias-calendar
-DTSTAMP:20261102T133202Z
+DTSTAMP:20261112T134703Z
 X-GAME-KEY:event|turk-telekom-ankara-vs-la-laguna-tenerife
 DTSTART;TZID=Atlantic/Canary:20261117T163000
 DTEND;TZID=Atlantic/Canary:20261117T183000
 SUMMARY:EC: Turk Telekom Ankara - Canarias
 LOCATION:Fuera de casa
-DESCRIPTION:Hora canaria. Fuente: euroleaguebasketball.net (overrides club site)\nhttps://cbcanarias.net/event/turk-telekom-ankara-vs-la-laguna-tenerife/
+DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/turk-telekom-ankara-vs-la-laguna-tenerife/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
