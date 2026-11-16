@@ -1082,25 +1082,15 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:be4c6dabcfad191a62ba@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261116T134104Z
 X-GAME-KEY:event|morabanc-andorra-vs-la-laguna-tenerife-3
-DTSTART;TZID=Atlantic/Canary:20261114T183000
-DTEND;TZID=Atlantic/Canary:20261114T203000
-SUMMARY:ACB: MoraBanc Andorra - Canarias
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:ACB: MoraBanc Andorra - Canarias (hora por confirmar)
 LOCATION:Fuera de casa
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/morabanc-andorra-vs-la-laguna-tenerife-3/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9c8860762684649d6963@canarias-calendar
