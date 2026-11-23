@@ -1219,47 +1219,27 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:b32939563f0eb7097ae7@canarias-calendar
-DTSTAMP:20261112T134703Z
+DTSTAMP:20261123T160012Z
 X-GAME-KEY:event|turk-telekom-ankara-vs-la-laguna-tenerife
-DTSTART;TZID=Atlantic/Canary:20261117T163000
-DTEND;TZID=Atlantic/Canary:20261117T183000
-SUMMARY:EC: Turk Telekom Ankara - Canarias
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:EC: Turk Telekom Ankara - Canarias (hora por confirmar)
 LOCATION:Fuera de casa
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/turk-telekom-ankara-vs-la-laguna-tenerife/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9c8860762684649d6963@canarias-calendar
-DTSTAMP:20260915T154957Z
+DTSTAMP:20261123T160012Z
 X-GAME-KEY:event|la-laguna-tenerife-vs-barca-3
-DTSTART;TZID=Atlantic/Canary:20261122T170000
-DTEND;TZID=Atlantic/Canary:20261122T190000
-SUMMARY:ACB: Canarias - Barça
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:ACB: Canarias - Barça (hora por confirmar)
 LOCATION:Pabellón Santiago Martín\, La Laguna
 DESCRIPTION:Hora canaria. Fuente: cbcanarias.net\nhttps://cbcanarias.net/event/la-laguna-tenerife-vs-barca-3/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Mañana juega el Canarias
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: El partido de Canarias es en 1 hora
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:048393fb831be4d2e2d3@canarias-calendar
